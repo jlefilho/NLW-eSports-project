@@ -55,10 +55,8 @@ export function DuoCard({ data, onConnect }: Props) {
                 size={20}
             />
 
-            <Text
-                style={styles.buttonTitle}
-            >
-
+            <Text style={styles.buttonTitle}>        
+                Conectar
             </Text>
 
             

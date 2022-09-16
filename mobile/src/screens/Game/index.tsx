@@ -13,12 +13,15 @@ import logoImg from '../../assets/logo-nlw-esports.png'
 
 import { Background } from '../../components/Background';
 import { Heading } from '../../components/Heading';
+import { DuoMatch } from '../../components/DuoMatch';
 import { DuoCard, DuoCardProps } from '../../components/DuoCard';
 
 
 export function Game() {
 
   const [duos, setDuos] = useState<DuoCardProps[]>([])
+
+  const [discordDuoSelected, setDiscordDuoSelected] = useState('')
 
   const navigation = useNavigation()
   const route = useRoute()
@@ -85,6 +88,12 @@ export function Game() {
           </Text>
         )}
         
+      />
+
+      <DuoMatch 
+        visible={discordDuoSelected.length > 0 }
+        discord=''
+        onClose={() => setDiscordDuoSelected('')}
       />
 
     </SafeAreaView>
