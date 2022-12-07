@@ -50,13 +50,13 @@ DATABASE_URL="postgresql://USER:PASS@HOST:PORT/DATABASE?schema=public"
 npm run dev
 ```
 
-5. Acesse a pasta web execute o projeto:
+5. Acesse a pasta web e execute o projeto:
 
 ```bash
 npm run dev
 ```
 
-6. Acesse a pasta mobile execute o projeto:
+6. Acesse a pasta mobile e execute o projeto:
 
 ```bash
 npm run start
