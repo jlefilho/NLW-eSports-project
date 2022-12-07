@@ -32,6 +32,7 @@
 
 ```bash
 git clone https://github.com/jlefilho/NLW-eSports-project.git
+```
 
 2. Acesse as pastas do projeto e instale as dependências necessárias:
 
